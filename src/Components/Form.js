@@ -92,8 +92,10 @@ const Form = () => {
                     </div>
                     <div>
                         <label htmlFor='age'>Age: {ageOutput}</label>
-                        {                        // <input type='number' id='age' name='age' onChange={handleChange} value={formData.age} />
-                        }                    </div>
+                        {
+                            // <input type='number' id='age' name='age' onChange={handleChange} value={formData.age} />
+                        }
+                    </div>
                     <div>
                         <label htmlFor='gender' >Gender:</label>
                         <input type='radio' id='male' name='gender' value='male' onChange={handleChange} />
